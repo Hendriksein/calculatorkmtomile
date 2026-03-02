@@ -18,7 +18,7 @@ class CalculatorApp extends StatelessWidget {
   }
 }
 
-// MODEL
+
 class CalculatorModel {
   double calculate(double num1, double num2, String operator) {
     switch (operator) {
@@ -40,7 +40,7 @@ class CalculatorModel {
   }
 }
 
-// CONTROLLER
+
 class CalculatorController {
   final CalculatorModel _model = CalculatorModel();
   String _output = "0";
@@ -86,7 +86,7 @@ class CalculatorController {
   }
 }
 
-// VIEW
+
 class CalculatorUI extends StatefulWidget {
   @override
   _CalculatorUIState createState() => _CalculatorUIState();
